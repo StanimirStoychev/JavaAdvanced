@@ -45,16 +45,12 @@ public class SimpleTextEditor {
                     String lastCommandType = lastCommandArguments[0];
                     switch (lastCommandType){
                         case "1":
-                            //Предишната команда е била добавяне
                             int elementsToDelete = lastCommandArguments[1].length();
                             executeDelete(elementsToDelete, text);
-                            //Сега трябва да премахнем
                             break;
                         case "2":
-                            // Предишната команда е била изтриване
                             String elementsToAddBack = removedElements.pop();
                             executeAdd(elementsToAddBack, text);
-                            // Сега трябва да добавим
                             break;
                     }
                     break;
