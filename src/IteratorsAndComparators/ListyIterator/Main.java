@@ -1,7 +1,6 @@
 package IteratorsAndComparators.ListyIterator;
 
 import java.util.Arrays;
-import java.util.List;
 import java.util.Scanner;
 
 public class Main {
@@ -27,10 +26,20 @@ public class Main {
                     System.out.println(listyIterator.move());
                     break;
                 case "Print":
-                    listyIterator.print();
+                    try {
+                        listyIterator.print();
+                    } catch (IllegalStateException e) {
+                        System.out.println("Invalid Operation!");
+                    }
                     break;
                 case "HasNext":
                     System.out.println(listyIterator.hasNext());
+                    break;
+                case "PrintAll":
+                    for (String element : listyIterator) {
+                        System.out.print(element + " ");
+                    }
+                    System.out.println();
                     break;
             }
         }
