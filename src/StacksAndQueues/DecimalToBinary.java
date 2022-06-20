@@ -7,7 +7,10 @@ public class DecimalToBinary {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        int decimal = Integer.valueOf(scanner.nextLine());
+        int decimal = Integer.parseInt(scanner.nextLine());
+        if (decimal == 0) {
+            System.out.println(0);
+        }
 
         ArrayDeque<Integer> stack = new ArrayDeque<>();
 
@@ -19,5 +22,6 @@ public class DecimalToBinary {
         while (!stack.isEmpty()) {
             System.out.print(stack.pop());
         }
+
     }
 }

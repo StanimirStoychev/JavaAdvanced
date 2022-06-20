@@ -15,9 +15,9 @@ public class SimpleCalculator {
         Collections.addAll(stack, tokens);
 
         while (stack.size() > 1) {
-            int first = Integer.valueOf(stack.pop());
+            int first = Integer.parseInt(stack.pop());
             String op = stack.pop();
-            int second = Integer.valueOf(stack.pop());
+            int second = Integer.parseInt(stack.pop());
 
             switch (op) {
                 case "+":
