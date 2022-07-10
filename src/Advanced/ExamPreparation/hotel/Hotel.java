@@ -1,4 +1,4 @@
-package hotel;
+package Advanced.ExamPreparation.hotel;
 
 import java.util.ArrayList;
 import java.util.List;

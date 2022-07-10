@@ -1,4 +1,4 @@
-package hotel;
+package Advanced.ExamPreparation.hotel;
 
 public class Person {
     private String name;
@@ -47,6 +47,6 @@ public class Person {
 
     @Override
     public String toString() {
-        return String.format("Person %s: %d, Age: %d, Hometown: %s", name, id, age, hometown);
+        return String.format("OOP.Inheritance.person %s: %d, Age: %d, Hometown: %s", name, id, age, hometown);
     }
 }
