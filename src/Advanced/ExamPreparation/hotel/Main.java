@@ -6,11 +6,11 @@ public class Main {
         Hotel hotel = new Hotel("Hilton", 30);
         //Initialize entity
         Person person = new Person("Mark", 11111, 41, "Sofia");
-        //Print OOP.Inheritance.person
+        //Print OOP.Inheritance.OOP.InterfacesAndAbstraction.person
         System.out.println(person);
-        //OOP.Inheritance.person Mark: 11111, Age: 41, Hometown: Sofia
+        //OOP.Inheritance.OOP.InterfacesAndAbstraction.person Mark: 11111, Age: 41, Hometown: Sofia
 
-        //Add OOP.Inheritance.person
+        //Add OOP.Inheritance.OOP.InterfacesAndAbstraction.person
         hotel.add(person);
         System.out.println(hotel.getCount()); //1
         System.out.println(hotel.remove("Anna")); //false
@@ -26,24 +26,24 @@ public class Main {
         hotel.add(thirdPerson);
         hotel.add(fourthPerson);
 
-        // Get OOP.Inheritance.person
+        // Get OOP.Inheritance.OOP.InterfacesAndAbstraction.person
         Person personForGet = hotel.getPerson("Lucy", "Birmingham");
         Person personForGet1 = hotel.getPerson("Anna", "Burgas");
-        System.out.println(personForGet); // OOP.Inheritance.person Lucy: 54122, Age: 31, Hometown: Birmingham
+        System.out.println(personForGet); // OOP.Inheritance.OOP.InterfacesAndAbstraction.person Lucy: 54122, Age: 31, Hometown: Birmingham
         System.out.println(personForGet1); // null
 
         //Count
         System.out.println(hotel.getCount()); // 5
 
-        //Remove OOP.Inheritance.person
+        //Remove OOP.Inheritance.OOP.InterfacesAndAbstraction.person
         System.out.println(hotel.remove("Alice")); //true
 
         // Get Statistics
         System.out.println(hotel.getStatistics());
         // The people in the hotel Hilton are:
-        // OOP.Inheritance.person Mark: 11111, Age: 41, Hometown: Sofia
-        // OOP.Inheritance.person Lizzy: 31311, Age: 24, Hometown: Varna
-        // OOP.Inheritance.person Lucy: 54122, Age: 31, Hometown: Birmingham
-        // OOP.Inheritance.person Maria: 66611, Age: 41, Hometown: Sofia
+        // OOP.Inheritance.OOP.InterfacesAndAbstraction.person Mark: 11111, Age: 41, Hometown: Sofia
+        // OOP.Inheritance.OOP.InterfacesAndAbstraction.person Lizzy: 31311, Age: 24, Hometown: Varna
+        // OOP.Inheritance.OOP.InterfacesAndAbstraction.person Lucy: 54122, Age: 31, Hometown: Birmingham
+        // OOP.Inheritance.OOP.InterfacesAndAbstraction.person Maria: 66611, Age: 41, Hometown: Sofia
     }
 }
