@@ -1,49 +1,39 @@
 package OOP.InterfacesAndAbstraction.person;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Scanner;
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        int numberOfPeople = Integer.parseInt(scanner.nextLine());
+        Map<String, Buyer> buyers = new HashMap<>();
 
-        String input = scanner.nextLine();
-
-        List<Birthable> creatures = new ArrayList<>();
-
-        while (!"End".equals(input)) {
-            String[] inputParts = input.split(" ");
-            String typeToCreate = inputParts[0];
-            switch (typeToCreate) {
-                case "Citizen":
-                    String citizenName = inputParts[1];
-                    int age = Integer.parseInt(inputParts[2]);
-                    String id = inputParts[3];
-                    String citizenBirthDate = inputParts[4];
-                    Birthable citizen = new Citizen(citizenName, age, id, citizenBirthDate);
-                    creatures.add(citizen);
-                    break;
-                case "Pet":
-                    String petName = inputParts[1];
-                    String birthDate = inputParts[2];
-                    Birthable pet = new Pet(petName, birthDate);
-                    creatures.add(pet);
-                    break;
-                case "Robot":
-                    //ToDo: Create Robots!!!
-                    break;
+        for (int i = 0; i < numberOfPeople; i++) {
+            String input = scanner.nextLine();
+            String[] buyerParts = input.split(" ");
+            Buyer buyer;
+            String name = buyerParts[0];
+            if (buyerParts.length == 3) {
+                buyer = new Rebel(name);
+            } else {
+                buyer = new Citizen(name);
             }
-            input = scanner.nextLine();
-        }
-        String year = scanner.nextLine();
-        for (Birthable birthable : creatures) {
-            if (birthable.getBirthDate().endsWith(year)) {
-                System.out.println(birthable.getBirthDate());
-            }
+            buyers.put(name, buyer);
         }
 
+        String buyerName = scanner.nextLine();
+        while (!"End".equals(buyerName)) {
+            Buyer buyer = buyers.get(buyerName);
+
+            if (buyer != null) {
+                buyer.buyFood();
+            }
+
+            buyerName = scanner.nextLine();
+        }
+
+        int totalFood = buyers.values().stream().mapToInt(Buyer::getFood).sum();
+
+        System.out.println(totalFood);
     }
-
-
 }
