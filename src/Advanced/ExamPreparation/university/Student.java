@@ -25,7 +25,7 @@ public class Student {
 
     @Override
     public String toString() {
-        return "Student: " + firstName + " " + lastName + ", " + bestSubject;
+        return "OOP.WorkingWithAbstraction.Student.OOP.WorkingWithAbstraction.Student: " + firstName + " " + lastName + ", " + bestSubject;
     }
 
 }

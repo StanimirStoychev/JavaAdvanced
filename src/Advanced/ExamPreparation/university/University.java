@@ -33,7 +33,7 @@ public class University {
         }
 
         if (getStudent(student.firstName, student.lastName) != null) {
-            result = "Student is already in the exampreparation.university";
+            result = "OOP.WorkingWithAbstraction.Student.OOP.WorkingWithAbstraction.Student is already in the exampreparation.university";
         }
 
         if (result == null) {
@@ -48,7 +48,7 @@ public class University {
         Student foundStudent = getStudent(student.getFirstName(), student.getLastName());
 
         if (foundStudent == null) {
-            return "Student not found";
+            return "OOP.WorkingWithAbstraction.Student.OOP.WorkingWithAbstraction.Student not found";
         }
 
         students.remove(student);
@@ -68,7 +68,7 @@ public class University {
     public String getStatistics() {
         return students.stream()
                 .map(s -> String.format(
-                        "==Student: First Name = %s, Last Name = %s, Best Subject = %s",
+                        "==OOP.WorkingWithAbstraction.Student.OOP.WorkingWithAbstraction.Student: First Name = %s, Last Name = %s, Best Subject = %s",
                         s.getFirstName(), s.getLastName(), s.getBestSubject()))
                 .collect(Collectors.joining(System.lineSeparator()));
     }

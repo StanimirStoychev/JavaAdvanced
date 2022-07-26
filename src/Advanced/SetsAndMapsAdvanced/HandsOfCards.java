@@ -60,7 +60,7 @@ public class HandsOfCards {
     }
 
     private static int getType(char type) {
-        //(S -> 4, H-> 3, D -> 2, C -> 1).
+        //(S -> 4, H-> 3, DayOfWeek -> 2, C -> 1).
         switch (type) {
             case 'S':
                 return 4;

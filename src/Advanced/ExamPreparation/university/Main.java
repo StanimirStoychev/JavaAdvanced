@@ -10,29 +10,29 @@ public class Main {
         Student studentThree = new Student("Samy", "Johnson", "Algebra");
         Student studentFour = new Student("Rihanna", "Fenty", "Music");
         Student studentFive = new Student("Ellie", "Goulding", "Music");
-// Print Student
+// Print OOP.WorkingWithAbstraction.Student.OOP.WorkingWithAbstraction.Student
         System.out.println(student);
-        // Student: John Smith, Astronomy
-// Register Student
+        // OOP.WorkingWithAbstraction.Student.OOP.WorkingWithAbstraction.Student: John Smith, Astronomy
+// Register OOP.WorkingWithAbstraction.Student.OOP.WorkingWithAbstraction.Student
         String register = university.registerStudent(student);
         System.out.println(university.getCapacity()); // 10
         System.out.println(register); // Added student John Smith
         String registerTwo = university.registerStudent(studentTwo);
         String registerThree = university.registerStudent(studentThree);
         String registerFour = university.registerStudent(studentFour);
-// Dismiss Student
+// Dismiss OOP.WorkingWithAbstraction.Student.OOP.WorkingWithAbstraction.Student
         String dismissed = university.dismissStudent(student);
         System.out.println(dismissed); // Removed student John Smith
         String dismissedTwo = university.dismissStudent(studentFive);
-        System.out.println(dismissedTwo); // Student not found
-// Get Student
+        System.out.println(dismissedTwo); // OOP.WorkingWithAbstraction.Student.OOP.WorkingWithAbstraction.Student not found
+// Get OOP.WorkingWithAbstraction.Student.OOP.WorkingWithAbstraction.Student
         System.out.println(university.getStudent("Rihanna", "Fenty"));
-// Student: Rihanna Fenty, Music
+// OOP.WorkingWithAbstraction.Student.OOP.WorkingWithAbstraction.Student: Rihanna Fenty, Music
         System.out.println(university.getStudentCount()); // 3
         System.out.println(university.getStatistics());
-//==Student: First Name = Anna, Last Name = Cameron, Best Subject = Geometry
-        //==Student: First Name = Samy, Last Name = Johnson, Best Subject = Algebra
-        //==Student: First Name = Rihanna, Last Name = Fenty, Best Subject = Music
+//==OOP.WorkingWithAbstraction.Student.OOP.WorkingWithAbstraction.Student: First Name = Anna, Last Name = Cameron, Best Subject = Geometry
+        //==OOP.WorkingWithAbstraction.Student.OOP.WorkingWithAbstraction.Student: First Name = Samy, Last Name = Johnson, Best Subject = Algebra
+        //==OOP.WorkingWithAbstraction.Student.OOP.WorkingWithAbstraction.Student: First Name = Rihanna, Last Name = Fenty, Best Subject = Music
 
     }
 }
