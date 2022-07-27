@@ -47,6 +47,6 @@ public class Person {
 
     @Override
     public String toString() {
-        return String.format("OOP.Inheritance.OOP.InterfacesAndAbstraction.person %s: %d, Age: %d, Hometown: %s", name, id, age, hometown);
+        return String.format("OOP.Inheritance.OOP.InterfacesAndAbstraction.OOP.Encapsulation.person %s: %d, Age: %d, Hometown: %s", name, id, age, hometown);
     }
 }
