@@ -1,4 +1,4 @@
-package carShop;
+package OOP.InterfacesAndAbstraction.carShop;
 
 public interface Car {
     int TIRES = 4;

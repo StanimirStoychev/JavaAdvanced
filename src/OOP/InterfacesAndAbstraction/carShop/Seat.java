@@ -1,4 +1,4 @@
-package carShop;
+package OOP.InterfacesAndAbstraction.carShop;
 
 public class Seat extends CarImpl implements Sellable{
 
