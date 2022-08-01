@@ -1,8 +1,6 @@
 package carShop;
 
-import java.io.Serializable;
-
-public class Seat extends CarImpl {
+public class Seat extends CarImpl implements Sellable{
 
     private Double price;
 
@@ -14,6 +12,11 @@ public class Seat extends CarImpl {
 
     @Override
     public String toString() {
-        return String.format("%s sells for %f", getModel(), price);
+        return super.toString() + String.format("%s sells for %f", getModel(), price);
+    }
+
+    @Override
+    public Double getPrice() {
+        return price;
     }
 }
