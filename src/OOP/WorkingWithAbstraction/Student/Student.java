@@ -20,7 +20,7 @@ public class Student {
         } else if (grade < 5.00 && grade >= 3.50) {
             studentInfo += " Average student.";
         } else {
-            studentInfo += " Very nice OOP.Encapsulation.person.";
+            studentInfo += " Very nice OOP.Encapsulation.OOP.InterfacesAndAbstraction.personLab.";
         }
 
         return studentInfo;
