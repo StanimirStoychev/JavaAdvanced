@@ -1,4 +1,4 @@
-package Advanced.MultidimensionalArrays;
+package Advanced.MultidimensionalArrays.Exercise;
 
 import java.util.Scanner;
 
