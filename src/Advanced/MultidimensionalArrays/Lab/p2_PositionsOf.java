@@ -3,7 +3,7 @@ package Advanced.MultidimensionalArrays.Lab;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class PositionsOf {
+public class p2_PositionsOf {
 
     private static final String NOT_FOUND = "not found";
 

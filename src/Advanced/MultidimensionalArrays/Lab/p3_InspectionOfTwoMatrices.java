@@ -2,7 +2,7 @@ package Advanced.MultidimensionalArrays.Lab;
 
 import java.util.Scanner;
 
-public class InspectionOfTwoMatrices {
+public class p3_InspectionOfTwoMatrices {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
