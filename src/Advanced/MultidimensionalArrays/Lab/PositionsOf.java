@@ -4,6 +4,9 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class PositionsOf {
+
+    private static final String NOT_FOUND = "not found";
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -31,7 +34,7 @@ public class PositionsOf {
             }
         }
         if (notFound) {
-            System.out.println("not found");
+            System.out.println(NOT_FOUND);
         }
     }
 
