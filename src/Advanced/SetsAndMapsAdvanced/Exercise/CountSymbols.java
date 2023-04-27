@@ -1,4 +1,4 @@
-package Advanced.SetsAndMapsAdvanced;
+package Advanced.SetsAndMapsAdvanced.Exercise;
 
 import java.util.Iterator;
 import java.util.Map;

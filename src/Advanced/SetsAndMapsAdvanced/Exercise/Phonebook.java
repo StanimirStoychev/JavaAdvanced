@@ -1,4 +1,4 @@
-package Advanced.SetsAndMapsAdvanced;
+package Advanced.SetsAndMapsAdvanced.Exercise;
 
 import java.util.HashMap;
 import java.util.Map;

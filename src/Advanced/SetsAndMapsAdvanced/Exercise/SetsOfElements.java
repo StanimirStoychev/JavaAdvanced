@@ -1,4 +1,4 @@
-package Advanced.SetsAndMapsAdvanced;
+package Advanced.SetsAndMapsAdvanced.Exercise;
 
 import java.util.Arrays;
 import java.util.LinkedHashSet;
