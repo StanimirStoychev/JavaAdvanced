@@ -6,14 +6,14 @@ public class p3_Voina {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        Set<Integer> firstPlayer = new LinkedHashSet<>();
-        Set<Integer> secondPlayer = new LinkedHashSet<>();
+        Set<Integer> firstPlayerCards = new LinkedHashSet<>();
+        Set<Integer> secondPlayerCards = new LinkedHashSet<>();
 
-        dealingCards(scanner, firstPlayer, secondPlayer);
+        dealingCards(scanner, firstPlayerCards, secondPlayerCards);
 
-        playGame(firstPlayer, secondPlayer);
+        playGame(firstPlayerCards, secondPlayerCards);
 
-        printOutput(firstPlayer, secondPlayer);
+        printOutput(firstPlayerCards, secondPlayerCards);
     }
 
     private static void printOutput(Set<Integer> firstPlayer, Set<Integer> secondPlayer) {
