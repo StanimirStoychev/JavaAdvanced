@@ -19,7 +19,7 @@ public class p5_AverageStudentGrades {
             for (int i = 0; i < student.getValue().size(); i++) {
                 System.out.printf("%.2f ", student.getValue().get(i));
             }
-            System.out.printf("avg: %.2f", student.getValue().stream().mapToDouble(Double::doubleValue).average()
+            System.out.printf("(avg: %.2f)", student.getValue().stream().mapToDouble(Double::doubleValue).average()
                     .orElseThrow(NoSuchElementException::new));
             System.out.println();
         }
