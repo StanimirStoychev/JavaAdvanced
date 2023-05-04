@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
-public class Phonebook {
+public class p5_Phonebook {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         Map<String, String> phonebook = new HashMap<>();

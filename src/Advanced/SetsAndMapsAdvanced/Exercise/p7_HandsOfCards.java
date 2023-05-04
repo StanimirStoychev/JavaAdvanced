@@ -2,7 +2,7 @@ package Advanced.SetsAndMapsAdvanced.Exercise;
 
 import java.util.*;
 
-public class HandsOfCards {
+public class p7_HandsOfCards {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 

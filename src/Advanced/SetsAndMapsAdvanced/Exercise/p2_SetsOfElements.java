@@ -5,7 +5,7 @@ import java.util.LinkedHashSet;
 import java.util.Scanner;
 import java.util.Set;
 
-public class SetsOfElements {
+public class p2_SetsOfElements {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
