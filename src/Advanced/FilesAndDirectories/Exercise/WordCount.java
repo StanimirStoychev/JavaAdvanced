@@ -1,4 +1,4 @@
-package Advanced.FilesAndDirectories;
+package Advanced.FilesAndDirectories.Exercise;
 
 import java.io.FileNotFoundException;
 import java.io.FileReader;

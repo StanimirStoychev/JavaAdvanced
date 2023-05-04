@@ -1,4 +1,4 @@
-package Advanced.FilesAndDirectories;
+package Advanced.FilesAndDirectories.Exercise;
 
 import java.io.File;
 import java.util.ArrayDeque;

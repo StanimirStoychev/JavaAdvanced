@@ -1,4 +1,4 @@
-package Advanced.FilesAndDirectories;
+package Advanced.FilesAndDirectories.Exercise;
 
 import java.io.IOException;
 import java.io.PrintWriter;

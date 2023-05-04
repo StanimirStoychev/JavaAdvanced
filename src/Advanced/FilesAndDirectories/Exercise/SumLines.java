@@ -1,24 +1,24 @@
-package Advanced.FilesAndDirectories;
+package Advanced.FilesAndDirectories.Exercise;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 
-public class SumBytes {
+public class SumLines {
     public static void main(String[] args) {
-        try (BufferedReader bufferedReader = new BufferedReader(new FileReader("src/Advanced.resources/input.txt"))) {
+        try(BufferedReader bufferedReader = new BufferedReader(new FileReader("src/Advanced.resources/input.txt"))){
 
             String line = bufferedReader.readLine();
-            long sum = 0;
-            while (line != null) {
+            while(line != null){
+                long sum = 0;
                 char[] charactersFromLine = line.toCharArray();
                 for (char singleCharacter : charactersFromLine) {
-                    sum += singleCharacter;
+                    sum+=singleCharacter;
                 }
+                System.out.println(sum);
                 line = bufferedReader.readLine();
             }
-            System.out.println(sum);
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         } catch (IOException e) {
