@@ -22,30 +22,58 @@ public class Main {
                 case "Create":
                     BankAccount bankAccount = new BankAccount();
                     bankAccounts.put(bankAccount.getId(), bankAccount);
-                    System.out.printf("Account ID%d created%n", bankAccount.getId());
+                    printAccountCreated(bankAccount);
                     break;
                 case "Deposit":
                     if (bankAccounts.containsKey(Integer.parseInt(input[1]))) {
-                        bankAccounts.get(Integer.parseInt(input[1])).deposit(Double.parseDouble(input[2]));
-                        System.out.printf("Deposited %.0f to ID%d%n", Double.parseDouble(input[2]),
-                                Integer.parseInt(input[1]));
+                        deposit(bankAccounts, input);
+                        printDepositInfo(input);
                     } else {
-                        System.out.println(ACCOUNT_DOESNT_EXIST);
+                        printAccountDoesntExist();
                     }
                     break;
                 case "SetInterest":
-                    BankAccount.setInterestRate(Double.parseDouble(input[1]));
+                    setInterest(input);
                     break;
                 case "GetInterest":
                     if (bankAccounts.containsKey(Integer.parseInt(input[1]))) {
-                        double getInterest = bankAccounts.get(Integer.parseInt(input[1]))
-                                .getInterest(Integer.parseInt(input[2]));
-                        System.out.printf("%.2f%n", getInterest);
+                        double getInterest = getInterest(bankAccounts, input);
+                        printInterest(getInterest);
                     } else {
-                        System.out.println(ACCOUNT_DOESNT_EXIST);
+                        printAccountDoesntExist();
                     }
                     break;
             }
         }
+    }
+
+    private static void printAccountCreated(BankAccount bankAccount) {
+        System.out.printf("Account ID%d created%n", bankAccount.getId());
+    }
+
+    private static void printInterest(double getInterest) {
+        System.out.printf("%.2f%n", getInterest);
+    }
+
+    private static void printDepositInfo(String[] input) {
+        System.out.printf("Deposited %.0f to ID%d%n", Double.parseDouble(input[2]),
+                Integer.parseInt(input[1]));
+    }
+
+    private static void deposit(Map<Integer, BankAccount> bankAccounts, String[] input) {
+        bankAccounts.get(Integer.parseInt(input[1])).deposit(Double.parseDouble(input[2]));
+    }
+
+    private static void printAccountDoesntExist() {
+        System.out.println(ACCOUNT_DOESNT_EXIST);
+    }
+
+    private static void setInterest(String[] input) {
+        BankAccount.setInterestRate(Double.parseDouble(input[1]));
+    }
+
+    private static double getInterest(Map<Integer, BankAccount> bankAccounts, String[] input) {
+        return bankAccounts.get(Integer.parseInt(input[1]))
+                .getInterest(Integer.parseInt(input[2]));
     }
 }
