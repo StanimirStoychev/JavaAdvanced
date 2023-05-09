@@ -1,4 +1,4 @@
-package CustomStack;
+package Lab.CustomStack;
 
 import java.util.NoSuchElementException;
 import java.util.function.Consumer;
@@ -39,7 +39,7 @@ public class CustomStack {
 
     private void checkEmpty() {
         if (this.size == 0) {
-            throw new NoSuchElementException("CustomStack is empty");
+            throw new NoSuchElementException("Lab.CustomStack is empty");
         }
     }
 

@@ -1,4 +1,4 @@
-package SmartArray;
+package Lab.SmartArray;
 
 public class TestSmartArray {
     public static void main(String[] args) {

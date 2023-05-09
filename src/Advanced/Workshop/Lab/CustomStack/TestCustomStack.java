@@ -1,4 +1,4 @@
-package CustomStack;
+package Lab.CustomStack;
 
 public class TestCustomStack {
     public static void main(String[] args) {

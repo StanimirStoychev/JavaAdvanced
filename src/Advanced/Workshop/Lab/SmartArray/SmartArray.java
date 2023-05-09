@@ -1,4 +1,4 @@
-package SmartArray;
+package Lab.SmartArray;
 
 import java.util.function.Consumer;
 
