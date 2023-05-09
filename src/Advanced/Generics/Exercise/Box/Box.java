@@ -1,4 +1,4 @@
-package Advanced.Generics.Box;
+package Advanced.Generics.Exercise.Box;
 
 import java.util.ArrayList;
 import java.util.Collections;

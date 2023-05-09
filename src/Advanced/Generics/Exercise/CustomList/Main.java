@@ -1,4 +1,4 @@
-package Advanced.Generics.CustomList;
+package Advanced.Generics.Exercise.CustomList;
 
 import java.util.Scanner;
 

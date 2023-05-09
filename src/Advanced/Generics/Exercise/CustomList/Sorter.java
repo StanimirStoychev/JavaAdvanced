@@ -1,4 +1,4 @@
-package Advanced.Generics.CustomList;
+package Advanced.Generics.Exercise.CustomList;
 
 public class Sorter {
     public static <T extends Comparable<T>> void sort(CustomList<T> list) {
