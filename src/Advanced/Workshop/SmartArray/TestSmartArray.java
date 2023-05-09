@@ -1,3 +1,5 @@
+package SmartArray;
+
 public class TestSmartArray {
     public static void main(String[] args) {
 
