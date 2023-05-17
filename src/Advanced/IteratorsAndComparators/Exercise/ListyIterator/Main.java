@@ -36,8 +36,10 @@ public class Main {
                     System.out.println(listyIterator.hasNext());
                     break;
                 case "PrintAll":
-                    for (String element : listyIterator) {
-                        System.out.print(element + " ");
+                    try {
+                        listyIterator.printAll();
+                    } catch (IllegalStateException e) {
+                        System.out.println("Invalid Operation");
                     }
                     System.out.println();
                     break;

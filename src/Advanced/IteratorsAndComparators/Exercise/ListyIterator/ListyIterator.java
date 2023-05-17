@@ -31,6 +31,12 @@ public class ListyIterator implements Iterable<String> {
         System.out.println(this.elements.get(currentIndex));
     }
 
+    public void printAll() {
+        for (String element : elements) {
+            System.out.print(element + " ");
+        }
+    }
+
     @Override
     public Iterator<String> iterator() {
         return new Iterator<String>() {
