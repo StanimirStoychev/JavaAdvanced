@@ -1,4 +1,4 @@
-package Advanced.IteratorsAndComparators.Lab.Library;
+package Advanced.IteratorsAndComparators.Lab.p2_Library;
 
 import java.util.Iterator;
 

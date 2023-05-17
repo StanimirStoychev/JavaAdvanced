@@ -1,4 +1,4 @@
-package Advanced.IteratorsAndComparators.Lab.Book;
+package Advanced.IteratorsAndComparators.Lab.p1_Book;
 
 import java.util.ArrayList;
 import java.util.Arrays;
