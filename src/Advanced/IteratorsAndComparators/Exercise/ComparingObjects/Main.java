@@ -1,4 +1,4 @@
-package Advanced.IteratorsAndComparators.ComparingObjects;
+package Advanced.IteratorsAndComparators.Exercise.ComparingObjects;
 
 import java.util.ArrayList;
 import java.util.List;

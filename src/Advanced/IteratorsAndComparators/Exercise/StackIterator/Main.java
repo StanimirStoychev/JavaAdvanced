@@ -1,4 +1,4 @@
-package Advanced.IteratorsAndComparators.StackIterator;
+package Advanced.IteratorsAndComparators.Exercise.StackIterator;
 
 import java.util.Arrays;
 import java.util.Scanner;

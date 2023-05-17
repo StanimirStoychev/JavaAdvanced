@@ -1,4 +1,4 @@
-package Advanced.IteratorsAndComparators.Froggy;
+package Advanced.IteratorsAndComparators.Exercise.Froggy;
 
 import java.util.Iterator;
 import java.util.List;

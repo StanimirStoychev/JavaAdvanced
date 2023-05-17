@@ -1,4 +1,4 @@
-package Advanced.IteratorsAndComparators.StrategyPattern;
+package Advanced.IteratorsAndComparators.Exercise.StrategyPattern;
 
 public class Person {
     private String name;

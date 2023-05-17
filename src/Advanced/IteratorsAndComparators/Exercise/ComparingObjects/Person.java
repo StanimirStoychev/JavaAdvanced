@@ -1,4 +1,4 @@
-package Advanced.IteratorsAndComparators.ComparingObjects;
+package Advanced.IteratorsAndComparators.Exercise.ComparingObjects;
 
 public class Person implements Comparable<Person>{
     private String name;
