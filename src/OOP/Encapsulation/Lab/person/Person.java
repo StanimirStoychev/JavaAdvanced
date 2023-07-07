@@ -1,4 +1,4 @@
-package OOP.Encapsulation.person;
+package OOP.Encapsulation.Lab.person;
 
 public class Person {
     private String firstName;

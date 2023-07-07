@@ -1,4 +1,4 @@
-package OOP.Encapsulation.AnimalFarm;
+package OOP.Encapsulation.Exercise.AnimalFarm;
 
 public class Chicken {private String name;
     private int age;

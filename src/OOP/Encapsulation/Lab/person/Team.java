@@ -1,4 +1,4 @@
-package OOP.Encapsulation.person;
+package OOP.Encapsulation.Lab.person;
 
 import java.util.ArrayList;
 import java.util.Collections;

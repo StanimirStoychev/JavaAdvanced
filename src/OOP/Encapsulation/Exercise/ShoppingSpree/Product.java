@@ -1,4 +1,4 @@
-package OOP.Encapsulation.ShoppingSpree;
+package OOP.Encapsulation.Exercise.ShoppingSpree;
 
 public class Product {
     private String name;

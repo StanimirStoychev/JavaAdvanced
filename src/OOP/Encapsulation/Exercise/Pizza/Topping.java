@@ -1,4 +1,4 @@
-package OOP.Encapsulation.Pizza;
+package OOP.Encapsulation.Exercise.Pizza;
 
 import java.util.Arrays;
 

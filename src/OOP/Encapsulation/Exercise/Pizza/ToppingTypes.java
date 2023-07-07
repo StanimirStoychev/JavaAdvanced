@@ -1,4 +1,4 @@
-package OOP.Encapsulation.Pizza;
+package OOP.Encapsulation.Exercise.Pizza;
 
 public enum ToppingTypes {
     Meat(1.2),

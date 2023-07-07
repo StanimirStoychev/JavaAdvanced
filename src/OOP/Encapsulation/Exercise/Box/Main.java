@@ -1,4 +1,4 @@
-package OOP.Encapsulation.Box;
+package OOP.Encapsulation.Exercise.Box;
 
 import java.util.Scanner;
 

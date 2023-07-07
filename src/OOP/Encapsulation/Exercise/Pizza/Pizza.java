@@ -1,4 +1,4 @@
-package OOP.Encapsulation.Pizza;
+package OOP.Encapsulation.Exercise.Pizza;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -15,7 +15,7 @@ public class Pizza {
 
     private void setName(String name) {
         if (name.trim().isEmpty() || name.length() > 15 || name.length() < 1) {
-            throw new IllegalArgumentException("OOP.Encapsulation.Pizza name should be between 1 and 15 symbols.");
+            throw new IllegalArgumentException("OOP.Encapsulation.Exercise.Pizza name should be between 1 and 15 symbols.");
         }
         this.name = name;
     }
