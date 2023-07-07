@@ -1,4 +1,4 @@
-package OOP.WorkingWithAbstraction.Exercise.Cards;
+package OOP.WorkingWithAbstraction.Exercise.CardRank;
 
 public enum CardRank {
     ACE(14),
