@@ -30,9 +30,7 @@ public class Main {
                     int shooting = Integer.parseInt(data[7]);
                     var player = new Player(playerName, endurance, sprint, dribble, passing, shooting);
 
-                    if (validRange(endurance) && validRange(sprint) && validRange(dribble) &&
-                            validRange(passing) && validRange(shooting)) {
-
+                    if (areAllStatsInRange(endurance, sprint, dribble, passing, shooting)) {
 
                         if (teams.containsKey(data[1])) {
                             teams.get(data[1]).addPlayer(player);
@@ -45,6 +43,11 @@ public class Main {
                 case "Rating" -> System.out.println(data[1] + " - " + Math.round(teams.get(data[1]).getRating()));
             }
         }
+    }
+
+    private static boolean areAllStatsInRange(int endurance, int sprint, int dribble, int passing, int shooting) {
+        return validRange(endurance) && validRange(sprint) && validRange(dribble) &&
+                validRange(passing) && validRange(shooting);
     }
 
     private static boolean validRange(int stat) {
