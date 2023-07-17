@@ -28,11 +28,12 @@ public class EngineerImpl extends SpecialisedSoldierImpl implements Engineer {
     @Override
     public String toString() {
         StringBuilder sb = new StringBuilder(super.toString());
+
         sb.append(System.lineSeparator());
         sb.append("Corps: ").append(super.getCorps());
         sb.append(System.lineSeparator());
         sb.append("Repairs:");
-        repairs.forEach(s -> sb.append(System.lineSeparator()).append(s));
+        repairs.forEach(s -> sb.append(System.lineSeparator()).append("  ").append(s));
 
         return sb.toString();
     }

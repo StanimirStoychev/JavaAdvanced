@@ -1,9 +1,12 @@
 package OOP.InterfacesAndAbstraction.Exercise.MilitaryElite;
 
 import OOP.InterfacesAndAbstraction.Exercise.MilitaryElite.Private.PrivateImpl;
+import OOP.InterfacesAndAbstraction.Exercise.MilitaryElite.commando.CommandoImpl;
+import OOP.InterfacesAndAbstraction.Exercise.MilitaryElite.commando.Mission;
 import OOP.InterfacesAndAbstraction.Exercise.MilitaryElite.engineer.EngineerImpl;
 import OOP.InterfacesAndAbstraction.Exercise.MilitaryElite.engineer.Repair;
 import OOP.InterfacesAndAbstraction.Exercise.MilitaryElite.enums.Corps;
+import OOP.InterfacesAndAbstraction.Exercise.MilitaryElite.enums.State;
 import OOP.InterfacesAndAbstraction.Exercise.MilitaryElite.lieutenantGeneral.LieutenantGeneralImpl;
 import OOP.InterfacesAndAbstraction.Exercise.MilitaryElite.spy.SpyImpl;
 
@@ -61,8 +64,8 @@ public class Main {
 
                 case "Engineer":
 
-                    var corps = Corps.valueOf(data[5]);
-                    var engineer = new EngineerImpl(id, firstName, lastName, Double.parseDouble(data[4]), corps);
+                    var engCorps = Corps.valueOf(data[5]);
+                    var engineer = new EngineerImpl(id, firstName, lastName, Double.parseDouble(data[4]), engCorps);
 
                     if (data.length > 6) {
                         for (int i = 6; i < data.length; i += 2) {
@@ -79,6 +82,21 @@ public class Main {
 
                 case "Commando":
 
+                    var comCorps = Corps.valueOf(data[5]);
+                    var commando = new CommandoImpl(id, firstName, lastName, Double.parseDouble(data[4]), comCorps);
+
+                    if (data.length > 6) {
+                        for (int i = 6; i < data.length; i += 2) {
+                            String codeName = data[i];
+                            var state = State.valueOf(data[i + 1]);
+                            var mission = new Mission(codeName, state);
+                            commando.addMission(mission);
+                        }
+                    }
+
+                    System.out.println(commando);
+
+                    break;
 
             }
         }

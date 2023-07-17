@@ -18,6 +18,6 @@ public class Mission {
 
     @Override
     public String toString() {
-        return String.format("Code Name: %s State: %s%n", codeName, state);
+        return String.format("Code Name: %s State: %s", codeName, state);
     }
 }
