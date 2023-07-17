@@ -2,7 +2,7 @@ package OOP.InterfacesAndAbstraction.Exercise.MilitaryElite.Private;
 
 import OOP.InterfacesAndAbstraction.Exercise.MilitaryElite.soldier.SoldierImpl;
 
-public class PrivateImpl extends SoldierImpl implements Private {
+public class PrivateImpl extends SoldierImpl implements Private, Comparable<PrivateImpl> {
 
     private final double salary;
 
@@ -18,5 +18,10 @@ public class PrivateImpl extends SoldierImpl implements Private {
     @Override
     public String toString() {
         return super.toString() + String.format("Salary: %.2f%n", salary);
+    }
+
+    @Override
+    public int compareTo(PrivateImpl o) {
+        return Integer.compare(this.getId(), o.getId());
     }
 }

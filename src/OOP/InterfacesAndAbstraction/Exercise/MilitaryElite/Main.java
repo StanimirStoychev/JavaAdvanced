@@ -25,7 +25,7 @@ public class Main {
             switch (soldierType) {
                 case "Private":
                     var priv = new PrivateImpl(id, firstName, lastName, Double.parseDouble(data[4]));
-                    System.out.println(priv);
+                    System.out.print(priv);
                     privates.add(priv);
                     break;
                 case "LieutenantGeneral":
@@ -41,7 +41,12 @@ public class Main {
                             }
                         }
                     }
+                    System.out.println(general);
+                    break;
             }
         }
+
+        System.out.println();
+
     }
 }

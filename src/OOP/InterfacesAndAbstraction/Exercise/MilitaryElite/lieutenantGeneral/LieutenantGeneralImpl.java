@@ -1,17 +1,14 @@
 package OOP.InterfacesAndAbstraction.Exercise.MilitaryElite.lieutenantGeneral;
 
-import OOP.InterfacesAndAbstraction.Exercise.MilitaryElite.Private.Private;
 import OOP.InterfacesAndAbstraction.Exercise.MilitaryElite.Private.PrivateImpl;
-import OOP.InterfacesAndAbstraction.Exercise.MilitaryElite.soldier.Soldier;
 
-import java.util.Collection;
 import java.util.Comparator;
 import java.util.HashSet;
 import java.util.Set;
 
 public class LieutenantGeneralImpl extends PrivateImpl implements LieutenantGeneral {
 
-    private final Set<Private> privates;
+    private final Set<PrivateImpl> privates;
 
     public LieutenantGeneralImpl(int id, String firstName, String lastName, double salary) {
         super(id, firstName, lastName, salary);
@@ -22,18 +19,20 @@ public class LieutenantGeneralImpl extends PrivateImpl implements LieutenantGene
         privates.add(priv);
     }
 
-    public Collection<Private> getPrivates() {
-        return privates;
+    public Set<PrivateImpl> getPrivates() {
+        return this.privates;
     }
 
     @Override
     public String toString() {
         StringBuilder sb = new StringBuilder(super.toString());
-        sb.append("Privates:%n");
+
+        sb.append("Privates:").append(System.lineSeparator());
+
         privates.stream()
-                .map(Soldier::getId)
                 .sorted(Comparator.reverseOrder())
                 .forEach(sb::append);
+
         return sb.toString();
     }
 }
