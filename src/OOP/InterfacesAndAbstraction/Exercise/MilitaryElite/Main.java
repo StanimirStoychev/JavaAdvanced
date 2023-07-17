@@ -1,8 +1,8 @@
 package OOP.InterfacesAndAbstraction.Exercise.MilitaryElite;
 
 import OOP.InterfacesAndAbstraction.Exercise.MilitaryElite.Private.PrivateImpl;
-import OOP.InterfacesAndAbstraction.Exercise.MilitaryElite.lieutenantGeneral.LieutenantGeneral;
 import OOP.InterfacesAndAbstraction.Exercise.MilitaryElite.lieutenantGeneral.LieutenantGeneralImpl;
+import OOP.InterfacesAndAbstraction.Exercise.MilitaryElite.spy.SpyImpl;
 
 import java.util.*;
 
@@ -23,13 +23,17 @@ public class Main {
             String lastName = data[3];
 
             switch (soldierType) {
+
                 case "Private":
+
                     var priv = new PrivateImpl(id, firstName, lastName, Double.parseDouble(data[4]));
                     System.out.print(priv);
                     privates.add(priv);
                     break;
+
                 case "LieutenantGeneral":
-                    LieutenantGeneral general = new LieutenantGeneralImpl(id, firstName, lastName,
+
+                    var general = new LieutenantGeneralImpl(id, firstName, lastName,
                             Double.parseDouble(data[4]));
                     if (data.length > 5) {
                         for (int i = 5; i < data.length; i++) {
@@ -41,12 +45,18 @@ public class Main {
                             }
                         }
                     }
+
                     System.out.println(general);
+                    break;
+
+                case "Spy":
+
+                    var spy = new SpyImpl(id, firstName, lastName, data[4]);
+                    System.out.println(spy);
+
                     break;
             }
         }
-
-        System.out.println();
 
     }
 }
