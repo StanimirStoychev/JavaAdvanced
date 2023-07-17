@@ -30,15 +30,13 @@ public class Main {
 
             switch (soldierType) {
 
-                case "Private":
-
+                case "Private" -> {
                     var priv = new PrivateImpl(id, firstName, lastName, Double.parseDouble(data[4]));
                     System.out.println(priv);
                     privates.add(priv);
-                    break;
+                }
 
-                case "LieutenantGeneral":
-
+                case "LieutenantGeneral" -> {
                     var general = new LieutenantGeneralImpl(id, firstName, lastName,
                             Double.parseDouble(data[4]));
                     if (data.length > 5) {
@@ -51,22 +49,17 @@ public class Main {
                             }
                         }
                     }
-
                     System.out.println(general);
-                    break;
+                }
 
-                case "Spy":
-
+                case "Spy" -> {
                     var spy = new SpyImpl(id, firstName, lastName, data[4]);
                     System.out.println(spy);
+                }
 
-                    break;
-
-                case "Engineer":
-
+                case "Engineer" -> {
                     var engCorps = Corps.valueOf(data[5]);
                     var engineer = new EngineerImpl(id, firstName, lastName, Double.parseDouble(data[4]), engCorps);
-
                     if (data.length > 6) {
                         for (int i = 6; i < data.length; i += 2) {
                             String partName = data[i];
@@ -75,16 +68,12 @@ public class Main {
                             engineer.addRepair(repair);
                         }
                     }
-
                     System.out.println(engineer);
+                }
 
-                    break;
-
-                case "Commando":
-
+                case "Commando" -> {
                     var comCorps = Corps.valueOf(data[5]);
                     var commando = new CommandoImpl(id, firstName, lastName, Double.parseDouble(data[4]), comCorps);
-
                     if (data.length > 6) {
                         for (int i = 6; i < data.length; i += 2) {
                             String codeName = data[i];
@@ -93,13 +82,9 @@ public class Main {
                             commando.addMission(mission);
                         }
                     }
-
                     System.out.println(commando);
-
-                    break;
-
+                }
             }
         }
-
     }
 }
