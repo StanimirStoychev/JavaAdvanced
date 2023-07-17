@@ -1,6 +1,9 @@
 package OOP.InterfacesAndAbstraction.Exercise.MilitaryElite;
 
 import OOP.InterfacesAndAbstraction.Exercise.MilitaryElite.Private.PrivateImpl;
+import OOP.InterfacesAndAbstraction.Exercise.MilitaryElite.engineer.EngineerImpl;
+import OOP.InterfacesAndAbstraction.Exercise.MilitaryElite.engineer.Repair;
+import OOP.InterfacesAndAbstraction.Exercise.MilitaryElite.enums.Corps;
 import OOP.InterfacesAndAbstraction.Exercise.MilitaryElite.lieutenantGeneral.LieutenantGeneralImpl;
 import OOP.InterfacesAndAbstraction.Exercise.MilitaryElite.spy.SpyImpl;
 
@@ -27,7 +30,7 @@ public class Main {
                 case "Private":
 
                     var priv = new PrivateImpl(id, firstName, lastName, Double.parseDouble(data[4]));
-                    System.out.print(priv);
+                    System.out.println(priv);
                     privates.add(priv);
                     break;
 
@@ -55,6 +58,28 @@ public class Main {
                     System.out.println(spy);
 
                     break;
+
+                case "Engineer":
+
+                    var corps = Corps.valueOf(data[5]);
+                    var engineer = new EngineerImpl(id, firstName, lastName, Double.parseDouble(data[4]), corps);
+
+                    if (data.length > 6) {
+                        for (int i = 6; i < data.length; i += 2) {
+                            String partName = data[i];
+                            int hoursWorked = Integer.parseInt(data[i + 1]);
+                            var repair = new Repair(partName, hoursWorked);
+                            engineer.addRepair(repair);
+                        }
+                    }
+
+                    System.out.println(engineer);
+
+                    break;
+
+                case "Commando":
+
+
             }
         }
 

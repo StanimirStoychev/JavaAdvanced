@@ -20,6 +20,6 @@ public class Repair {
 
     @Override
     public String toString() {
-        return String.format("Part Name: %s Hours Worked: %d%n", partName, hoursWorked);
+        return String.format("Part Name: %s Hours Worked: %d", partName, hoursWorked);
     }
 }

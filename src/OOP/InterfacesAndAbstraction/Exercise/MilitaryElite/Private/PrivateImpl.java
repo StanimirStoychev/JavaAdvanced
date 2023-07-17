@@ -17,7 +17,7 @@ public class PrivateImpl extends SoldierImpl implements Private, Comparable<Priv
 
     @Override
     public String toString() {
-        return super.toString() + String.format("Salary: %.2f%n", salary);
+        return super.toString() + String.format("Salary: %.2f", salary);
     }
 
     @Override

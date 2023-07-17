@@ -1,16 +1,18 @@
 package OOP.InterfacesAndAbstraction.Exercise.MilitaryElite.specialisedSoldier;
 
+import OOP.InterfacesAndAbstraction.Exercise.MilitaryElite.Private.PrivateImpl;
 import OOP.InterfacesAndAbstraction.Exercise.MilitaryElite.enums.Corps;
 
-public class SpecialisedSoldierImpl implements SpecialisedSoldier {
+public class SpecialisedSoldierImpl extends PrivateImpl implements SpecialisedSoldier {
 
-    private final Corps corp;
+    private final Corps corps;
 
-    public SpecialisedSoldierImpl(Corps corp) {
-        this.corp = corp;
+    public SpecialisedSoldierImpl(int id, String firstName, String lastName, double salary, Corps corps) {
+        super(id, firstName, lastName, salary);
+        this.corps = corps;
     }
 
-    public Corps getCorp() {
-        return corp;
+    public Corps getCorps() {
+        return corps;
     }
 }

@@ -27,11 +27,11 @@ public class LieutenantGeneralImpl extends PrivateImpl implements LieutenantGene
     public String toString() {
         StringBuilder sb = new StringBuilder(super.toString());
 
-        sb.append("Privates:").append(System.lineSeparator());
+        sb.append("Privates:");
 
         privates.stream()
                 .sorted(Comparator.reverseOrder())
-                .forEach(sb::append);
+                .forEach(s -> sb.append(System.lineSeparator()).append(s));
 
         return sb.toString();
     }

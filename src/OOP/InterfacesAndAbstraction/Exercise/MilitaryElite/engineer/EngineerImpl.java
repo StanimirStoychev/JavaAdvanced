@@ -2,19 +2,18 @@ package OOP.InterfacesAndAbstraction.Exercise.MilitaryElite.engineer;
 
 import OOP.InterfacesAndAbstraction.Exercise.MilitaryElite.Private.PrivateImpl;
 import OOP.InterfacesAndAbstraction.Exercise.MilitaryElite.enums.Corps;
+import OOP.InterfacesAndAbstraction.Exercise.MilitaryElite.specialisedSoldier.SpecialisedSoldierImpl;
 
 import java.util.Collection;
 import java.util.HashSet;
 import java.util.Set;
 
-public class EngineerImpl extends PrivateImpl implements Engineer {
+public class EngineerImpl extends SpecialisedSoldierImpl implements Engineer {
 
-    Corps corps;
     private final Set<Repair> repairs;
 
     public EngineerImpl(int id, String firstName, String lastName, double salary, Corps corps) {
-        super(id, firstName, lastName, salary);
-        this.corps = corps;
+        super(id, firstName, lastName, salary, corps);
         repairs = new HashSet<>();
     }
 
@@ -29,9 +28,12 @@ public class EngineerImpl extends PrivateImpl implements Engineer {
     @Override
     public String toString() {
         StringBuilder sb = new StringBuilder(super.toString());
-        sb.append("Corps: ").append(corps);
-        sb.append("%nRepairs:%n");
-        repairs.forEach(sb::append);
+        sb.append(System.lineSeparator());
+        sb.append("Corps: ").append(super.getCorps());
+        sb.append(System.lineSeparator());
+        sb.append("Repairs:");
+        repairs.forEach(s -> sb.append(System.lineSeparator()).append(s));
+
         return sb.toString();
     }
 }

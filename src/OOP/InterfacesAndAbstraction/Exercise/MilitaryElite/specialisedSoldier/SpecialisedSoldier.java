@@ -4,5 +4,5 @@ import OOP.InterfacesAndAbstraction.Exercise.MilitaryElite.enums.Corps;
 
 public interface SpecialisedSoldier {
 
-    Corps getCorp();
+    Corps getCorps();
 }
