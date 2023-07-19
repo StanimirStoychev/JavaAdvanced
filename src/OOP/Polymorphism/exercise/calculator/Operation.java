@@ -1,4 +1,4 @@
-package calculator;
+package OOP.Polymorphism.exercise.calculator;
 
 public interface Operation {
     void addOperand(int operand);

@@ -1,4 +1,4 @@
-package calculator;
+package OOP.Polymorphism.exercise.calculator;
 
 public class CalculationEngine {
     private int result;

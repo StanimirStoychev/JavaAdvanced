@@ -8,9 +8,14 @@ public class Main {
 
         StringBuilder text = new StringBuilder(scanner.nextLine());
 
+        if (text.toString().isEmpty()) {
+            return;
+        }
+
         CommandInterface commandInterface = Initialization.buildCommandInterface(text);
 
         String inputLine = scanner.nextLine();
+        commandInterface.init();
 
         while(!inputLine.equals("exit")) {
             commandInterface.handleInput(inputLine);
