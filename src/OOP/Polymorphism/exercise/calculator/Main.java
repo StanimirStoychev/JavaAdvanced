@@ -7,13 +7,13 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
         CalculationEngine engine = new CalculationEngine();
-        InputInterpreter interpreter = Extensions.buildInterpreter(engine);
+       // InputInterpreter interpreter = Extensions.buildInterpreter(engine);
         String[] tokens = scanner.nextLine().split("\\s+");
         for (String token : tokens) {
             if(token.equals("end")){
                 break;
             }
-            interpreter.interpret(token);
+        //    interpreter.interpret(token);
         }
 
         System.out.println(engine.getCurrentResult());
