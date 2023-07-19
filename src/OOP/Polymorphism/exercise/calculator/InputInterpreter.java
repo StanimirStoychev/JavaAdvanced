@@ -18,6 +18,8 @@ public class InputInterpreter {
     public Operation getOperation(String operation) {
         if (operation.equals("*")) {
             return new MultiplicationOperation();
+        } else if (operation.equals("/")) {
+            return  new DivisionOperation();
         }
 
         return null;
