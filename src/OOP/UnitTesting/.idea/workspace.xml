@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="31e40234-4ca5-421e-887e-87bff136f1c9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/p02_ExtendedDatabase/DatabaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/p02_ExtendedDatabase/DatabaseTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -290,9 +290,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.DatabaseTest" />
+        <item itemvalue="JUnit.DatabaseTest.testFindByUsernameWithNullArgs" />
         <item itemvalue="JUnit.DatabaseTest.testFindByIdWithNullArgs" />
         <item itemvalue="JUnit.DatabaseTest.testFindByIdSuccess" />
-        <item itemvalue="JUnit.DatabaseTest.testFindByUsernameWithNullArgs" />
         <item itemvalue="JUnit.DatabaseTest.testFindByUserNameSuccess" />
       </list>
     </recent_temporary>
@@ -310,7 +310,7 @@
       <updated>1553882451307</updated>
       <workItem from="1553882453775" duration="713000" />
       <workItem from="1553883188286" duration="1387000" />
-      <workItem from="1690454248227" duration="7140000" />
+      <workItem from="1690454248227" duration="7847000" />
     </task>
     <servers />
   </component>

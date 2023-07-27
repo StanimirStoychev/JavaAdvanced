@@ -88,7 +88,12 @@ public class DatabaseTest {
 
     @Test(expected = OperationNotSupportedException.class)
     public void testFindByUsernameWithNullArgs() throws OperationNotSupportedException {
-        database.findByUsername("Grigor");
+        database.findByUsername(null);
+    }
+
+    @Test(expected = OperationNotSupportedException.class)
+    public void testFindByUsernameWithNameWhoIsNotInTheDB() throws OperationNotSupportedException {
+        database.findByUsername("Andrei");
     }
 
     @Test
