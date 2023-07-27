@@ -8,7 +8,7 @@ import javax.naming.OperationNotSupportedException;
 import static org.junit.Assert.assertArrayEquals;
 import static org.junit.Assert.assertEquals;
 
-public class DatabaseTest {
+public class ExtendedDatabaseTest {
 
     Database database;
     Person[] people;
