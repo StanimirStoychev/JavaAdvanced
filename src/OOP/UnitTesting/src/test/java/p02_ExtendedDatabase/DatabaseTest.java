@@ -108,5 +108,4 @@ public class DatabaseTest {
     public void testFindByIdWithNullArgs() throws OperationNotSupportedException {
         database.findById(100);
     }
-
 }
