@@ -94,7 +94,7 @@ public class ExtendedDatabaseTest {
     }
 
     @Test(expected = OperationNotSupportedException.class)
-    public void testFindByUsernameWithNameWhoIsNotInTheDB() throws OperationNotSupportedException {
+    public void testFindByUsernameWithNameWhichIsNotInTheDB() throws OperationNotSupportedException {
         database.findByUsername("Andrei");
     }
 
