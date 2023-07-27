@@ -53,6 +53,8 @@ public class ExtendedDatabaseTest {
     public void testAddSuccess() throws OperationNotSupportedException {
         database.add(new Person(5, "Andrei"));
         assertEquals(people.length + 1, database.getElements().length);
+        assertEquals("Andrei", database.findById(5).getUsername());
+        assertEquals(5, database.findByUsername("Andrei").getId());
     }
 
     @Test(expected = OperationNotSupportedException.class)

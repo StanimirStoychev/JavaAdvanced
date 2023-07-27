@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="31e40234-4ca5-421e-887e-87bff136f1c9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/p02_ExtendedDatabase/DatabaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/p02_ExtendedDatabase/ExtendedDatabaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/p02_ExtendedDatabase/ExtendedDatabaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/p02_ExtendedDatabase/ExtendedDatabaseTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -210,7 +210,7 @@
       <recent name="p01_Database" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BubbleTest">
+  <component name="RunManager" selected="JUnit.ExtendedDatabaseTest.testAddSuccess">
     <configuration name="BubbleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UnitTesting" />
       <extension name="coverage">
@@ -272,28 +272,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListIteratorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ExtendedDatabaseTest.testAddSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UnitTesting" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="p03_IteratorTest.*" />
+          <option name="PATTERN" value="p02_ExtendedDatabase.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="p03_IteratorTest" />
-      <option name="MAIN_CLASS_NAME" value="p03_IteratorTest.ListIteratorTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="p02_ExtendedDatabase" />
+      <option name="MAIN_CLASS_NAME" value="p02_ExtendedDatabase.ExtendedDatabaseTest" />
+      <option name="METHOD_NAME" value="testAddSuccess" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ExtendedDatabaseTest.testAddSuccess" />
         <item itemvalue="JUnit.BubbleTest" />
         <item itemvalue="JUnit.BubbleTest.testBubbleSort" />
         <item itemvalue="JUnit.ExtendedDatabaseTest" />
         <item itemvalue="JUnit.DatabaseTest" />
-        <item itemvalue="JUnit.ListIteratorTest" />
       </list>
     </recent_temporary>
   </component>
@@ -310,7 +311,7 @@
       <updated>1553882451307</updated>
       <workItem from="1553882453775" duration="713000" />
       <workItem from="1553883188286" duration="1387000" />
-      <workItem from="1690454248227" duration="11278000" />
+      <workItem from="1690454248227" duration="11948000" />
     </task>
     <servers />
   </component>
@@ -366,6 +367,9 @@
     </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/UnitTesting$BubbleTest.ic" NAME="BubbleTest Coverage Results" MODIFIED="1690474272286" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>p04_BubbleSortTest.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/UnitTesting$ListIteratorTest.ic" NAME="ListIteratorTest Coverage Results" MODIFIED="1690469898185" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>p03_IteratorTest.*</FILTER>
     </SUITE>
