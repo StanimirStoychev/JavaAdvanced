@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="31e40234-4ca5-421e-887e-87bff136f1c9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/p02_ExtendedDatabase/DatabaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/p02_ExtendedDatabase/DatabaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -203,85 +204,86 @@
       <recent name="junit.framework.TestCase" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="p03_IteratorTest" />
       <recent name="p02_ExtendedDatabase" />
       <recent name="p01_Database" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DatabaseTest">
-    <configuration name="DatabaseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ListIteratorTest">
+    <configuration name="ListIteratorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UnitTesting" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="p02_ExtendedDatabase.*" />
+          <option name="PATTERN" value="p03_IteratorTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="p02_ExtendedDatabase" />
-      <option name="MAIN_CLASS_NAME" value="p02_ExtendedDatabase.DatabaseTest" />
+      <option name="PACKAGE_NAME" value="p03_IteratorTest" />
+      <option name="MAIN_CLASS_NAME" value="p03_IteratorTest.ListIteratorTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DatabaseTest.testFindByIdSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ListIteratorTest.testHasNext" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UnitTesting" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="p02_ExtendedDatabase.*" />
+          <option name="PATTERN" value="p03_IteratorTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="p02_ExtendedDatabase" />
-      <option name="MAIN_CLASS_NAME" value="p02_ExtendedDatabase.DatabaseTest" />
-      <option name="METHOD_NAME" value="testFindByIdSuccess" />
+      <option name="PACKAGE_NAME" value="p03_IteratorTest" />
+      <option name="MAIN_CLASS_NAME" value="p03_IteratorTest.ListIteratorTest" />
+      <option name="METHOD_NAME" value="testHasNext" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DatabaseTest.testFindByIdWithNullArgs" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ListIteratorTest.testPrintSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UnitTesting" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="p02_ExtendedDatabase.*" />
+          <option name="PATTERN" value="p03_IteratorTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="p02_ExtendedDatabase" />
-      <option name="MAIN_CLASS_NAME" value="p02_ExtendedDatabase.DatabaseTest" />
-      <option name="METHOD_NAME" value="testFindByIdWithNullArgs" />
+      <option name="PACKAGE_NAME" value="p03_IteratorTest" />
+      <option name="MAIN_CLASS_NAME" value="p03_IteratorTest.ListIteratorTest" />
+      <option name="METHOD_NAME" value="testPrintSuccess" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DatabaseTest.testFindByUserNameSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ListIteratorTest.testPrintWithNullArgs" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UnitTesting" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="p02_ExtendedDatabase.*" />
+          <option name="PATTERN" value="p03_IteratorTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="p02_ExtendedDatabase" />
-      <option name="MAIN_CLASS_NAME" value="p02_ExtendedDatabase.DatabaseTest" />
-      <option name="METHOD_NAME" value="testFindByUserNameSuccess" />
+      <option name="PACKAGE_NAME" value="p03_IteratorTest" />
+      <option name="MAIN_CLASS_NAME" value="p03_IteratorTest.ListIteratorTest" />
+      <option name="METHOD_NAME" value="testPrintWithNullArgs" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DatabaseTest.testFindByUsernameWithNullArgs" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ListIteratorTest.testSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UnitTesting" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="p02_ExtendedDatabase.*" />
+          <option name="PATTERN" value="p03_IteratorTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="p02_ExtendedDatabase" />
-      <option name="MAIN_CLASS_NAME" value="p02_ExtendedDatabase.DatabaseTest" />
-      <option name="METHOD_NAME" value="testFindByUsernameWithNullArgs" />
+      <option name="PACKAGE_NAME" value="p03_IteratorTest" />
+      <option name="MAIN_CLASS_NAME" value="p03_IteratorTest.ListIteratorTest" />
+      <option name="METHOD_NAME" value="testSuccess" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -289,11 +291,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.DatabaseTest" />
-        <item itemvalue="JUnit.DatabaseTest.testFindByUsernameWithNullArgs" />
-        <item itemvalue="JUnit.DatabaseTest.testFindByIdWithNullArgs" />
-        <item itemvalue="JUnit.DatabaseTest.testFindByIdSuccess" />
-        <item itemvalue="JUnit.DatabaseTest.testFindByUserNameSuccess" />
+        <item itemvalue="JUnit.ListIteratorTest" />
+        <item itemvalue="JUnit.ListIteratorTest.testPrintSuccess" />
+        <item itemvalue="JUnit.ListIteratorTest.testPrintWithNullArgs" />
+        <item itemvalue="JUnit.ListIteratorTest.testSuccess" />
+        <item itemvalue="JUnit.ListIteratorTest.testHasNext" />
       </list>
     </recent_temporary>
   </component>
@@ -310,7 +312,7 @@
       <updated>1553882451307</updated>
       <workItem from="1553882453775" duration="713000" />
       <workItem from="1553883188286" duration="1387000" />
-      <workItem from="1690454248227" duration="7847000" />
+      <workItem from="1690454248227" duration="9979000" />
     </task>
     <servers />
   </component>
@@ -366,7 +368,7 @@
     </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/UnitTesting$DatabaseTest.ic" NAME="DatabaseTest Coverage Results" MODIFIED="1690463524243" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/UnitTesting$DatabaseTest.ic" NAME="DatabaseTest Coverage Results" MODIFIED="1690464526476" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>p02_ExtendedDatabase.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/UnitTesting$DatabaseTest__1_.ic" NAME="DatabaseTest (1) Coverage Results" MODIFIED="1690462010752" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
