@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="31e40234-4ca5-421e-887e-87bff136f1c9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/p01_Database/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/p01_Database/Database.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +14,9 @@
   </component>
   <component name="CodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="CoverageOptionsProvider">
+    <option name="myAddOrReplace" value="0" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -180,6 +179,7 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit3",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3": "junit.framework.TestCase",
     "last_opened_file_path": "C:/Users/Stanimir/Desktop/SoftUni/JavaAdvanced/src/OOP/UnitTesting",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"
@@ -203,6 +203,7 @@
       <recent name="junit.framework.TestCase" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="p02_ExtendedDatabase" />
       <recent name="p01_Database" />
     </key>
   </component>
@@ -211,76 +212,76 @@
       <module name="UnitTesting" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="p01_Database.*" />
+          <option name="PATTERN" value="p02_ExtendedDatabase.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="p01_Database" />
-      <option name="MAIN_CLASS_NAME" value="p01_Database.DatabaseTest" />
+      <option name="PACKAGE_NAME" value="p02_ExtendedDatabase" />
+      <option name="MAIN_CLASS_NAME" value="p02_ExtendedDatabase.DatabaseTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DatabaseTest.testAddSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DatabaseTest.testFindByIdSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UnitTesting" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="p01_Database.*" />
+          <option name="PATTERN" value="p02_ExtendedDatabase.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="p01_Database" />
-      <option name="MAIN_CLASS_NAME" value="p01_Database.DatabaseTest" />
-      <option name="METHOD_NAME" value="testAddSuccess" />
+      <option name="PACKAGE_NAME" value="p02_ExtendedDatabase" />
+      <option name="MAIN_CLASS_NAME" value="p02_ExtendedDatabase.DatabaseTest" />
+      <option name="METHOD_NAME" value="testFindByIdSuccess" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DatabaseTest.testAddWithNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DatabaseTest.testFindByIdWithNullArgs" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UnitTesting" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="p01_Database.*" />
+          <option name="PATTERN" value="p02_ExtendedDatabase.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="p01_Database" />
-      <option name="MAIN_CLASS_NAME" value="p01_Database.DatabaseTest" />
-      <option name="METHOD_NAME" value="testAddWithNull" />
+      <option name="PACKAGE_NAME" value="p02_ExtendedDatabase" />
+      <option name="MAIN_CLASS_NAME" value="p02_ExtendedDatabase.DatabaseTest" />
+      <option name="METHOD_NAME" value="testFindByIdWithNullArgs" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DatabaseTest.testRemoveFromEmptyDB" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DatabaseTest.testFindByUserNameSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UnitTesting" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="p01_Database.*" />
+          <option name="PATTERN" value="p02_ExtendedDatabase.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="p01_Database" />
-      <option name="MAIN_CLASS_NAME" value="p01_Database.DatabaseTest" />
-      <option name="METHOD_NAME" value="testRemoveFromEmptyDB" />
+      <option name="PACKAGE_NAME" value="p02_ExtendedDatabase" />
+      <option name="MAIN_CLASS_NAME" value="p02_ExtendedDatabase.DatabaseTest" />
+      <option name="METHOD_NAME" value="testFindByUserNameSuccess" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DatabaseTest.testRemoveSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DatabaseTest.testFindByUsernameWithNullArgs" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UnitTesting" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="p01_Database.*" />
+          <option name="PATTERN" value="p02_ExtendedDatabase.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="p01_Database" />
-      <option name="MAIN_CLASS_NAME" value="p01_Database.DatabaseTest" />
-      <option name="METHOD_NAME" value="testRemoveSuccess" />
+      <option name="PACKAGE_NAME" value="p02_ExtendedDatabase" />
+      <option name="MAIN_CLASS_NAME" value="p02_ExtendedDatabase.DatabaseTest" />
+      <option name="METHOD_NAME" value="testFindByUsernameWithNullArgs" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -289,10 +290,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.DatabaseTest" />
-        <item itemvalue="JUnit.DatabaseTest.testRemoveFromEmptyDB" />
-        <item itemvalue="JUnit.DatabaseTest.testRemoveSuccess" />
-        <item itemvalue="JUnit.DatabaseTest.testAddWithNull" />
-        <item itemvalue="JUnit.DatabaseTest.testAddSuccess" />
+        <item itemvalue="JUnit.DatabaseTest.testFindByIdWithNullArgs" />
+        <item itemvalue="JUnit.DatabaseTest.testFindByIdSuccess" />
+        <item itemvalue="JUnit.DatabaseTest.testFindByUsernameWithNullArgs" />
+        <item itemvalue="JUnit.DatabaseTest.testFindByUserNameSuccess" />
       </list>
     </recent_temporary>
   </component>
@@ -309,7 +310,7 @@
       <updated>1553882451307</updated>
       <workItem from="1553882453775" duration="713000" />
       <workItem from="1553883188286" duration="1387000" />
-      <workItem from="1690454248227" duration="3157000" />
+      <workItem from="1690454248227" duration="7140000" />
     </task>
     <servers />
   </component>
@@ -365,8 +366,11 @@
     </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/UnitTesting$DatabaseTest.ic" NAME="DatabaseTest Coverage Results" MODIFIED="1690459081634" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>p01_Database.*</FILTER>
+    <SUITE FILE_PATH="coverage/UnitTesting$DatabaseTest.ic" NAME="DatabaseTest Coverage Results" MODIFIED="1690463524243" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>p02_ExtendedDatabase.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/UnitTesting$DatabaseTest__1_.ic" NAME="DatabaseTest (1) Coverage Results" MODIFIED="1690462010752" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>p02_ExtendedDatabase.*</FILTER>
     </SUITE>
   </component>
   <component name="editorHistoryManager">
