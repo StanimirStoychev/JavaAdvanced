@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="31e40234-4ca5-421e-887e-87bff136f1c9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/p02_ExtendedDatabase/ExtendedDatabaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/p02_ExtendedDatabase/ExtendedDatabaseTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -204,85 +203,88 @@
       <recent name="junit.framework.TestCase" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="p05_CustomLinkedList" />
       <recent name="p04_BubbleSortTest" />
       <recent name="p03_IteratorTest" />
       <recent name="p02_ExtendedDatabase" />
       <recent name="p01_Database" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ExtendedDatabaseTest.testAddSuccess">
-    <configuration name="BubbleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.CustomLinkedListTest">
+    <configuration name="CustomLinkedListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UnitTesting" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="p04_BubbleSortTest.*" />
+          <option name="PATTERN" value="p05_CustomLinkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="p04_BubbleSortTest" />
-      <option name="MAIN_CLASS_NAME" value="p04_BubbleSortTest.BubbleTest" />
+      <option name="PACKAGE_NAME" value="p05_CustomLinkedList" />
+      <option name="MAIN_CLASS_NAME" value="p05_CustomLinkedList.CustomLinkedListTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BubbleTest.testBubbleSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CustomLinkedListTest.testContains" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UnitTesting" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="p04_BubbleSortTest.*" />
+          <option name="PATTERN" value="p05_CustomLinkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="p04_BubbleSortTest" />
-      <option name="MAIN_CLASS_NAME" value="p04_BubbleSortTest.BubbleTest" />
-      <option name="METHOD_NAME" value="testBubbleSort" />
+      <option name="PACKAGE_NAME" value="p05_CustomLinkedList" />
+      <option name="MAIN_CLASS_NAME" value="p05_CustomLinkedList.CustomLinkedListTest" />
+      <option name="METHOD_NAME" value="testContains" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DatabaseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CustomLinkedListTest.testIndexOfSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UnitTesting" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="p01_Database.*" />
+          <option name="PATTERN" value="p05_CustomLinkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="p01_Database" />
-      <option name="MAIN_CLASS_NAME" value="p01_Database.DatabaseTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="p05_CustomLinkedList" />
+      <option name="MAIN_CLASS_NAME" value="p05_CustomLinkedList.CustomLinkedListTest" />
+      <option name="METHOD_NAME" value="testIndexOfSuccess" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExtendedDatabaseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CustomLinkedListTest.testIndexOfWithNotExistingElement" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UnitTesting" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="p02_ExtendedDatabase.*" />
+          <option name="PATTERN" value="p05_CustomLinkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="p02_ExtendedDatabase" />
-      <option name="MAIN_CLASS_NAME" value="p02_ExtendedDatabase.ExtendedDatabaseTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="p05_CustomLinkedList" />
+      <option name="MAIN_CLASS_NAME" value="p05_CustomLinkedList.CustomLinkedListTest" />
+      <option name="METHOD_NAME" value="testIndexOfWithNotExistingElement" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExtendedDatabaseTest.testAddSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CustomLinkedListTest.testRemoveAllElements" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UnitTesting" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="p02_ExtendedDatabase.*" />
+          <option name="PATTERN" value="p05_CustomLinkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="p02_ExtendedDatabase" />
-      <option name="MAIN_CLASS_NAME" value="p02_ExtendedDatabase.ExtendedDatabaseTest" />
-      <option name="METHOD_NAME" value="testAddSuccess" />
+      <option name="PACKAGE_NAME" value="p05_CustomLinkedList" />
+      <option name="MAIN_CLASS_NAME" value="p05_CustomLinkedList.CustomLinkedListTest" />
+      <option name="METHOD_NAME" value="testRemoveAllElements" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -290,11 +292,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ExtendedDatabaseTest.testAddSuccess" />
-        <item itemvalue="JUnit.BubbleTest" />
-        <item itemvalue="JUnit.BubbleTest.testBubbleSort" />
-        <item itemvalue="JUnit.ExtendedDatabaseTest" />
-        <item itemvalue="JUnit.DatabaseTest" />
+        <item itemvalue="JUnit.CustomLinkedListTest" />
+        <item itemvalue="JUnit.CustomLinkedListTest.testRemoveAllElements" />
+        <item itemvalue="JUnit.CustomLinkedListTest.testContains" />
+        <item itemvalue="JUnit.CustomLinkedListTest.testIndexOfWithNotExistingElement" />
+        <item itemvalue="JUnit.CustomLinkedListTest.testIndexOfSuccess" />
       </list>
     </recent_temporary>
   </component>
@@ -311,7 +313,7 @@
       <updated>1553882451307</updated>
       <workItem from="1553882453775" duration="713000" />
       <workItem from="1553883188286" duration="1387000" />
-      <workItem from="1690454248227" duration="11948000" />
+      <workItem from="1690454248227" duration="15560000" />
     </task>
     <servers />
   </component>
@@ -370,6 +372,9 @@
     <SUITE FILE_PATH="coverage/UnitTesting$BubbleTest.ic" NAME="BubbleTest Coverage Results" MODIFIED="1690474272286" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>p04_BubbleSortTest.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/UnitTesting$CustomLinkedListTest.ic" NAME="CustomLinkedListTest Coverage Results" MODIFIED="1690530058034" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>p05_CustomLinkedList.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/UnitTesting$ListIteratorTest.ic" NAME="ListIteratorTest Coverage Results" MODIFIED="1690469898185" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>p03_IteratorTest.*</FILTER>
     </SUITE>
@@ -378,6 +383,9 @@
     </SUITE>
     <SUITE FILE_PATH="coverage/UnitTesting$DatabaseTest__1_.ic" NAME="DatabaseTest (1) Coverage Results" MODIFIED="1690462010752" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>p02_ExtendedDatabase.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/UnitTesting$CustomLinkedListTest_testContains.ic" NAME="CustomLinkedListTest.testContains Coverage Results" MODIFIED="1690530280937" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>p05_CustomLinkedList.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/UnitTesting$ExtendedDatabaseTest.ic" NAME="ExtendedDatabaseTest Coverage Results" MODIFIED="1690473974343" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>p02_ExtendedDatabase.*</FILTER>
