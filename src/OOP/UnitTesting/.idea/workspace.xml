@@ -171,20 +171,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit3",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3": "junit.framework.TestCase",
-    "last_opened_file_path": "C:/Users/Stanimir/Desktop/SoftUni/JavaAdvanced/src/OOP/UnitTesting",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit3&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3&quot;: &quot;junit.framework.TestCase&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Stanimir/Desktop/SoftUni/JavaAdvanced/src/OOP/UnitTesting&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="p02_ExtendedDatabase" />
@@ -203,14 +203,61 @@
       <recent name="junit.framework.TestCase" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="p06_TirePressureMonitoringSystem" />
       <recent name="p05_CustomLinkedList" />
       <recent name="p04_BubbleSortTest" />
       <recent name="p03_IteratorTest" />
       <recent name="p02_ExtendedDatabase" />
-      <recent name="p01_Database" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CustomLinkedListTest">
+  <component name="RunManager" selected="JUnit.AlarmTest">
+    <configuration name="AlarmTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="UnitTesting" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="p06_TirePressureMonitoringSystem.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="p06_TirePressureMonitoringSystem" />
+      <option name="MAIN_CLASS_NAME" value="p06_TirePressureMonitoringSystem.AlarmTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AlarmTest.testAlarmOnWithLowPressure" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="UnitTesting" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="p06_TirePressureMonitoringSystem.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="p06_TirePressureMonitoringSystem" />
+      <option name="MAIN_CLASS_NAME" value="p06_TirePressureMonitoringSystem.AlarmTest" />
+      <option name="METHOD_NAME" value="testAlarmOnWithLowPressure" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AlarmTest.testAlarmOnWithNormalPressure" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="UnitTesting" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="p06_TirePressureMonitoringSystem.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="p06_TirePressureMonitoringSystem" />
+      <option name="MAIN_CLASS_NAME" value="p06_TirePressureMonitoringSystem.AlarmTest" />
+      <option name="METHOD_NAME" value="testAlarmOnWithNormalPressure" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CustomLinkedListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UnitTesting" />
       <extension name="coverage">
@@ -222,54 +269,6 @@
       <option name="PACKAGE_NAME" value="p05_CustomLinkedList" />
       <option name="MAIN_CLASS_NAME" value="p05_CustomLinkedList.CustomLinkedListTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CustomLinkedListTest.testContains" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="UnitTesting" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="p05_CustomLinkedList.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="p05_CustomLinkedList" />
-      <option name="MAIN_CLASS_NAME" value="p05_CustomLinkedList.CustomLinkedListTest" />
-      <option name="METHOD_NAME" value="testContains" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CustomLinkedListTest.testIndexOfSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="UnitTesting" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="p05_CustomLinkedList.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="p05_CustomLinkedList" />
-      <option name="MAIN_CLASS_NAME" value="p05_CustomLinkedList.CustomLinkedListTest" />
-      <option name="METHOD_NAME" value="testIndexOfSuccess" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CustomLinkedListTest.testIndexOfWithNotExistingElement" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="UnitTesting" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="p05_CustomLinkedList.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="p05_CustomLinkedList" />
-      <option name="MAIN_CLASS_NAME" value="p05_CustomLinkedList.CustomLinkedListTest" />
-      <option name="METHOD_NAME" value="testIndexOfWithNotExistingElement" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -292,11 +291,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AlarmTest" />
+        <item itemvalue="JUnit.AlarmTest.testAlarmOnWithNormalPressure" />
+        <item itemvalue="JUnit.AlarmTest.testAlarmOnWithLowPressure" />
         <item itemvalue="JUnit.CustomLinkedListTest" />
         <item itemvalue="JUnit.CustomLinkedListTest.testRemoveAllElements" />
-        <item itemvalue="JUnit.CustomLinkedListTest.testContains" />
-        <item itemvalue="JUnit.CustomLinkedListTest.testIndexOfWithNotExistingElement" />
-        <item itemvalue="JUnit.CustomLinkedListTest.testIndexOfSuccess" />
       </list>
     </recent_temporary>
   </component>
@@ -313,7 +312,8 @@
       <updated>1553882451307</updated>
       <workItem from="1553882453775" duration="713000" />
       <workItem from="1553883188286" duration="1387000" />
-      <workItem from="1690454248227" duration="15560000" />
+      <workItem from="1690454248227" duration="17765000" />
+      <workItem from="1690532805486" duration="294000" />
     </task>
     <servers />
   </component>
@@ -372,7 +372,7 @@
     <SUITE FILE_PATH="coverage/UnitTesting$BubbleTest.ic" NAME="BubbleTest Coverage Results" MODIFIED="1690474272286" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>p04_BubbleSortTest.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/UnitTesting$CustomLinkedListTest.ic" NAME="CustomLinkedListTest Coverage Results" MODIFIED="1690530058034" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/UnitTesting$CustomLinkedListTest.ic" NAME="CustomLinkedListTest Coverage Results" MODIFIED="1690530410988" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>p05_CustomLinkedList.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/UnitTesting$ListIteratorTest.ic" NAME="ListIteratorTest Coverage Results" MODIFIED="1690469898185" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
@@ -383,6 +383,9 @@
     </SUITE>
     <SUITE FILE_PATH="coverage/UnitTesting$DatabaseTest__1_.ic" NAME="DatabaseTest (1) Coverage Results" MODIFIED="1690462010752" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>p02_ExtendedDatabase.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/UnitTesting$AlarmTest.ic" NAME="AlarmTest Coverage Results" MODIFIED="1690533045178" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>p06_TirePressureMonitoringSystem.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/UnitTesting$CustomLinkedListTest_testContains.ic" NAME="CustomLinkedListTest.testContains Coverage Results" MODIFIED="1690530280937" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>p05_CustomLinkedList.*</FILTER>
