@@ -11,9 +11,9 @@ public class DecreaseProductPriceCommand implements Command {
     }
 
     @Override
-    public String executeAction() {
+    public void executeAction() {
         this.product.decreasePrice(this.amount);
-        return String.format("The price for the %s has been decreased by %d$.%n",
+        System.out.printf("The price for the %s has been decreased by %d$.%n",
                 this.product.getName(), this.amount);
     }
 }
