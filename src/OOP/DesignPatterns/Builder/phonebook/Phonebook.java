@@ -1,4 +1,4 @@
-package OOP.DesignPatterns.Builder;
+package OOP.DesignPatterns.Builder.phonebook;
 
 import java.util.ArrayList;
 import java.util.Collection;

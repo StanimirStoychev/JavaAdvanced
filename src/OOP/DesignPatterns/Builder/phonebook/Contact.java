@@ -1,4 +1,4 @@
-package OOP.DesignPatterns.Builder;
+package OOP.DesignPatterns.Builder.phonebook;
 
 public class Contact {
 
@@ -10,34 +10,18 @@ public class Contact {
     private String website;
     private String birthday;
 
-    public Contact(String name, String number) {
-        this.setName(name);
-        this.setNumber(number);
-    }
-
-    public Contact(String name, String number, String company) {
-        this(name, number);
-        this.company = company;
-    }
-
-    public Contact(String name, String number, String company, String title) {
-        this(name, number, company);
-        this.title = title;
-    }
-
-    public Contact(String name, String number, String company, String title, String email) {
-        this(name, number, company, title);
-        this.email = email;
-    }
-
-    public Contact(String name, String number, String company, String title, String email, String website) {
-        this(name, number, company, title, email);
-        this.website = website;
-    }
-
     public Contact(String name, String number, String company, String title, String email, String website, String birthday) {
-        this(name, number, company, title, email, website);
+        this.name = name;
+        this.number = number;
+        this.company = company;
+        this.title = title;
+        this.email = email;
+        this.website = website;
         this.birthday = birthday;
+    }
+
+    public static Builder builder() {
+        return new Builder();
     }
 
     public String getName() {
@@ -95,5 +79,55 @@ public class Contact {
                 ", website='" + website + '\'' +
                 ", birthday=" + birthday +
                 '}';
+    }
+
+    public static class Builder {
+
+        private String name;
+        private String number;
+        private String company;
+        private String title;
+        private String email;
+        private String website;
+        private String birthday;
+
+        public Builder withName(String name) {
+            this.name = name;
+            return this;
+        }
+
+        public Builder withNumber(String number) {
+            this.number = number;
+            return this;
+        }
+
+        public Builder withCompany(String company) {
+            this.company = company;
+            return this;
+        }
+
+        public Builder withTitle(String title) {
+            this.title = title;
+            return this;
+        }
+
+        public Builder withEmail(String email) {
+            this.email = email;
+            return this;
+        }
+
+        public Builder withWebsite(String website) {
+            this.website = website;
+            return this;
+        }
+
+        public Builder withBirthday(String birthday) {
+            this.birthday = birthday;
+            return this;
+        }
+
+        public Contact build() {
+            return new Contact(name, number, company, title, email, website, birthday);
+        }
     }
 }
